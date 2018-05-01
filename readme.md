@@ -7,11 +7,10 @@ Qt5
 ********************************************************************************
 ### Project Directory Structure
 ********************************************************************************
+* [bin](./bin) - executable files
 * [build](./build) - generated files
-* [config](./config) - settings files
-* [doc](./doc) - documentation  
-   [project](./project) - coding conventions, standards, best practices, team
-   collaboration, processes  
+* [config](./config) - setting files
+* [docs](./docs) - documentation  
    [acknowledgments.md](./doc/acknowledgments.md)  
    [changelog.md](./doc/changelog.md)  
    [license.md](./doc/license.md)  
@@ -20,3 +19,13 @@ Qt5
 * [rsrc](./rsrc) - resources
 * [src](./src) - source code
 * [test](./test) - test files
+
+********************************************************************************
+### Code Standard 
+********************************************************************************
+Please follow the [C++ Style Guide](https://google.github.io/styleguide/cppguide.html) provided by Google. Code reviews should cite specific references to these code conventions and best practices.
+
+********************************************************************************
+### License
+********************************************************************************
+This project is licensed under the *** License - [see license.md](./doc/license.md)

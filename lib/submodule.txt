@@ -1,10 +1,11 @@
 ////////////////////////////////////////////////////////////////////////////////
 // Add New Submodule
 ////////////////////////////////////////////////////////////////////////////////
-Run from within the project root directory.
+Add submodules from within the root directory.
 
-format
+format:
 git submodule add --name <name> <repository-url> <path>
 
-example
+example:
+cd $PROJECT
 git submodule add --name qt https://code.qt.io/qt/qt5.git lib/qt
