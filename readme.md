@@ -1,7 +1,7 @@
 ********************************************************************************
 ### Description
 ********************************************************************************
-C++ Project Stub  
+Project Stub  
 Qt5
 
 ********************************************************************************
@@ -11,14 +11,22 @@ Qt5
 * [build](./build) - generated files
 * [config](./config) - setting files
 * [docs](./docs) - documentation  
-   [acknowledgments.md](./doc/acknowledgments.md)  
-   [changelog.md](./doc/changelog.md)  
-   [license.md](./doc/license.md)  
-   [privacy.md](./doc/privacy.md)  
+   * [dev](./docs/dev) - development docs
+     * [build-instructions.md](./docs/dev/build-instructions.md)
+   * [user](./docs/user) - manual pages
+   * [acknowledgments.md](./docs/acknowledgments.md)  
+   * [changelog.md](./docs/changelog.md)  
+   * [license.md](./docs/license.md)  
+   * [privacy.md](./docs/privacy.md)  
 * [lib](./lib) - libraries
 * [rsrc](./rsrc) - resources
 * [src](./src) - source code
 * [test](./test) - test files
+
+********************************************************************************
+### Build Instructions
+********************************************************************************
+To build this project from source [see build-instructions.md](./docs/dev/build-instructions.md)
 
 ********************************************************************************
 ### Code Standard 
