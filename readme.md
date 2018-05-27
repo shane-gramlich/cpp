@@ -5,7 +5,7 @@ Project Stub
 Qt5
 
 ********************************************************************************
-### Project Directory Structure
+### Directory Structure Overview
 ********************************************************************************
 * [bin](./bin) - executable files
 * [build](./build) - generated files
