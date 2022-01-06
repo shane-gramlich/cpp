@@ -1,18 +1,21 @@
+[![Actions Status](https://github.com/shane-gramlich/automate/workflows/Application%20%28main%29/badge.svg)](https://github.com/shane-gramlich/automate/actions)
+[![Actions Status](https://github.com/shane-gramlich/automate/workflows/Application%20%28staging%29/badge.svg)](https://github.com/shane-gramlich/automate/actions)
+[![Actions Status](https://github.com/shane-gramlich/automate/workflows/Application%20%28development%29/badge.svg)](https://github.com/shane-gramlich/automate/actions)
 ********************************************************************************
 ### Description
 ********************************************************************************
-Project Stub  
-Qt5
+
+<p align="center"><img src="rsrc/gifs/mobile-app.gif"></p>
 
 ********************************************************************************
 ### Directory Structure Overview
 ********************************************************************************
-* [bin](./bin) - executable files
 * [build](./build) - generated files
 * [config](./config) - setting files
 * [docs](./docs) - documentation  
    * [dev](./docs/dev) - development docs
-     * [build-instructions.md](./docs/dev/build-instructions.md)
+     * [build_instructions.md](./docs/dev/build_instructions.md)
+     * [development_environments.md](./docs/dev/development_environments.md)
    * [user](./docs/user) - manual pages
    * [acknowledgments.md](./docs/acknowledgments.md)  
    * [changelog.md](./docs/changelog.md)  
@@ -26,7 +29,7 @@ Qt5
 ********************************************************************************
 ### Build Instructions
 ********************************************************************************
-To build this project from source [see build-instructions.md](./docs/dev/build-instructions.md)
+To build this project from source [see build_instructions.md](./docs/dev/build_instructions.md)
 
 ********************************************************************************
 ### Code Standard 
