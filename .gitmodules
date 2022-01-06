@@ -1,3 +1,0 @@
-[submodule "qt"]
-	path = lib/qt
-	url = https://code.qt.io/qt/qt5.git

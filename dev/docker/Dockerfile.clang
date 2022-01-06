@@ -1,0 +1,23 @@
+# Get the base Ubuntu image from Docker Hub
+FROM ubuntu:latest
+
+# Update apps on the base image
+RUN apt-get -y update && apt-get install -y
+
+# Install Python
+RUN apt-get install python -y
+
+# Install the Clang compiler
+RUN apt-get -y install clang
+
+# Copy the current folder which contains C++ source code to the Docker image under /usr/src
+COPY . /usr/src/clang-build
+
+# Specify the working directory
+WORKDIR /usr/src/clang-build
+
+# Use Clang to compile the App.cpp source file
+RUN clang++ -o Automate src/App.cpp
+
+# Run the output program from the previous step
+CMD ["./Automate"]
